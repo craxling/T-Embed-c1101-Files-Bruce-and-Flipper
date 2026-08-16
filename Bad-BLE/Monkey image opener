@@ -1,0 +1,26 @@
+REM Bruce Bad BLE - Open funny meme GIF on Android phone
+REM Assumes Bruce is paired with the phone as a BLE keyboard
+
+DELAY 1000
+GUI
+DELAY 800
+STRING chrome
+DELAY 800
+ENTER
+DELAY 4000
+
+CTRL T
+DELAY 600
+CTRL L
+DELAY 600
+STRING https://media.tenor.com/oPQNWPiZBM4AAAAM/monkey-think-meme.gif
+DELAY 500
+ENTER
+
+REM Let it display for 10 seconds
+DELAY 10000
+
+REM Option 1: go to home screen
+GUI
+
+REM Option 2: close the tab instead - replace GUI above with CTRL W if preferred
